@@ -12,8 +12,6 @@ const loserContent = document.getElementById('loser-content') as HTMLDivElement;
 
 const returnButton = document.getElementById('return-button') as HTMLButtonElement;
 
-const lofiMusic = document.getElementById('lofi-music') as HTMLAudioElement;
-
 const game = new Game(
     scoreElement, 
     canvasElement, 

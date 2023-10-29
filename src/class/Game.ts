@@ -9,7 +9,6 @@ import { PlayerProtocol } from "./type/player-protocol";
 export default class Game {
     private readonly canvasElement: HTMLCanvasElement;
     private readonly canvas: CanvasRenderingContext2D;
-    private readonly lofiMusic = document.getElementById('lofi-music') as HTMLAudioElement;
     public player: PlayerProtocol;
     public food: FoodProtocol;
     public collision: CollisionProtocol;
