@@ -1,0 +1,24 @@
+{
+  "name": "tentando-fazer-o-jogo-da-cobra",
+  "version": "1.0.0",
+  "private": "true",
+  "author": "Raoni",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "babel-loader": "^9.1.3"
+  }
+}

@@ -1,0 +1,80 @@
+* {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}   
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.my-canvas {
+    border: none;
+    border: 10px solid #fff;
+    background-color: black;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+h1 span {
+    font-size: 1.5rem;
+}
+
+.point-content {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.point-content h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.loser-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.loser-content header {
+    margin-bottom: 3rem;
+}
+
+.loser-content header h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.loser-content section #return-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: crimson;
+    transition: all 0.2s ease-in-out;
+}
+
+.loser-content section #return-button:hover {
+    color: white;
+    background-color: crimson;
+}
+
+
+.loser-content.display-false {
+    display: none;
+}
+
